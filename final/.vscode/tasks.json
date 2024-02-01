@@ -1,0 +1,35 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ 활성 파일 빌드",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+            "-o",
+            "my_program",
+            "main.cpp",
+            "Server.cpp",
+            "Client.cpp",
+            "MQTT.cpp",
+            "-lmodbus",
+            "-ljsoncpp",
+            "-lmariadbclient",
+            "-lmodbus",
+            "-lpaho-mqtt3a"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "디버거에서 생성된 작업입니다."
+        }
+    ],
+    "version": "2.0.0"
+}

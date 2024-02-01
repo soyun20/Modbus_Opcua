@@ -1,0 +1,699 @@
+[2023-10-30 15:24:58.473644] [OPCUA_INFO] System Started
+[2023-10-30 15:24:58.595751] [OPCUA_INFO] 설정 내용 : IP: 0.0.0.0, Port: 4840
+[2023-10-30 15:24:58.696606] [OPCUA_INFO] Operation-Start
+[2023-10-30 15:24:58.800756] [OPCUA_LOG] ServerUrls already set. Overriding.
+[2023-10-30 15:24:58.885951] [OPCUA_LOG] Could not add SecurityPolicy#Basic128Rsa15 with error code BadInvalidArgument
+[2023-10-30 15:24:58.945953] [OPCUA_LOG] Could not add SecurityPolicy#Basic256 with error code BadInvalidArgument
+[2023-10-30 15:24:59.114305] [OPCUA_LOG] Could not add SecurityPolicy#Aes256Sha256RsaPss with error code BadInvalidArgument
+[2023-10-30 15:24:59.278412] [OPCUA_LOG] Could not add SecurityPolicy#Basic256Sha256 with error code BadInvalidArgument
+[2023-10-30 15:24:59.412040] [OPCUA_LOG] Could not add SecurityPolicy#Aes128Sha256RsaOaep with error code BadInvalidArgument
+[2023-10-30 15:24:59.483757] [OPCUA_LOG] AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2023-10-30 15:24:59.583808] [OPCUA_LOG] AccessControl: Anonymous login is enabled
+[2023-10-30 15:24:59.706711] [OPCUA_LOG] x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2023-10-30 15:24:59.813082] [OPCUA_INFO/SERVER] AccessControl: Anonymous login is enabled
+[2023-10-30 15:24:59.889411] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://0.0.0.0:4840/
+[2023-10-30 15:24:59.996094] [OPCUA_LOG] Subscription 0 | MonitoredItem 1 | Created the MonitoredItem (Sampling Interval: 100.00ms, Queue Size: 1)
+[2023-10-30 15:25:00.136156] [OPCUA_INFO] [Add Variable Node] name: Object/testNode1, data type: Int16
+[2023-10-30 15:25:00.228633] [OPCUA_LOG] Subscription 0 | MonitoredItem 2 | Created the MonitoredItem (Sampling Interval: 100.00ms, Queue Size: 1)
+[2023-10-30 15:25:00.422407] [OPCUA_INFO] [Add Variable Node] name: Object/testNode1/testNode2, data type: String
+[2023-10-30 15:25:00.523770] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-10-30 15:25:00.588106] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4840
+[2023-10-30 15:25:00.675037] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4840
+[2023-10-30 15:25:00.787631] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4840
+[2023-10-30 15:25:03.445824] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:25:03.497302] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel created
+[2023-10-30 15:25:03.571990] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:25:03.652658] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:03.741671] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:03.790152] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:03.860320] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:25:03.951466] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:25:04.032925] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:25:04.102183] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel created
+[2023-10-30 15:25:04.388025] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:25:04.474782] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:04.601453] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:04.699236] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:04.748355] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:04.835229] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:25:04.932717] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:04.988509] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:25:05.182732] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:25:24.129402] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Closing the Session
+[2023-10-30 15:25:24.260600] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription deleted
+[2023-10-30 15:25:24.380252] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:25:24.531152] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:25:36.952086] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:25:37.220142] [OPCUA_LOG] TCP 10    | SC 3    | SecureChannel created
+[2023-10-30 15:25:37.392780] [OPCUA_LOG] TCP 10    | SC 3    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:25:37.559339] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:37.628363] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:37.739087] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:37.825141] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:25:37.894565] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:25:37.968319] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:25:38.029233] [OPCUA_LOG] TCP 10    | SC 4    | SecureChannel created
+[2023-10-30 15:25:38.192495] [OPCUA_LOG] TCP 10    | SC 4    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:25:38.310274] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:38.368552] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:38.454243] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:38.589438] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:38.702142] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:25:38.801350] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:25:38.878226] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:25:39.018439] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | Subscription 2 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:26:13.113953] [OPCUA_LOG] TCP 9    | Socket closed
+[2023-10-30 15:26:13.244769] [OPCUA_LOG] TCP 8    | Socket closed
+[2023-10-30 15:26:13.383393] [OPCUA_LOG] TCP 7    | Socket closed
+[2023-10-30 15:26:13.460219] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:26:13.515209] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:26:13.590501] [OPCUA_LOG] Stopping the EventLoop
+[2023-10-30 15:26:13.754120] [OPCUA_LOG] ETH    | Shutting down the ConnectionManager
+[2023-10-30 15:26:13.852850] [OPCUA_LOG] UDP    | Shutting down the ConnectionManager
+[2023-10-30 15:26:13.958892] [OPCUA_LOG] TCP    | Shutting down the ConnectionManager
+[2023-10-30 15:26:14.064144] [OPCUA_LOG] The EventLoop has stopped
+[2023-10-30 15:26:14.246209] [OPCUA_INFO] Operation-Stop
+[2023-10-30 15:26:14.353573] [OPCUA_LOG] TCP 0    | SC 0    | Session  dataFEED OPC UA Client 1     | Subscription 2 | Subscription deleted
+[2023-10-30 15:26:14.514683] [OPCUA_LOG] Subscription 0 | MonitoredItem 2 | Deleting the MonitoredItem
+[2023-10-30 15:26:23.704173] [OPCUA_INFO] System Started
+[2023-10-30 15:26:23.781650] [OPCUA_INFO] 설정 내용 : IP: 0.0.0.0, Port: 4880
+[2023-10-30 15:26:23.849256] [OPCUA_INFO] Operation-Start
+[2023-10-30 15:26:23.936822] [OPCUA_LOG] ServerUrls already set. Overriding.
+[2023-10-30 15:26:24.083613] [OPCUA_LOG] Could not add SecurityPolicy#Basic128Rsa15 with error code BadInvalidArgument
+[2023-10-30 15:26:24.302027] [OPCUA_LOG] Could not add SecurityPolicy#Basic256 with error code BadInvalidArgument
+[2023-10-30 15:26:24.468503] [OPCUA_LOG] Could not add SecurityPolicy#Aes256Sha256RsaPss with error code BadInvalidArgument
+[2023-10-30 15:26:24.527701] [OPCUA_LOG] Could not add SecurityPolicy#Basic256Sha256 with error code BadInvalidArgument
+[2023-10-30 15:26:24.620519] [OPCUA_LOG] Could not add SecurityPolicy#Aes128Sha256RsaOaep with error code BadInvalidArgument
+[2023-10-30 15:26:24.698165] [OPCUA_LOG] AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2023-10-30 15:26:24.813097] [OPCUA_LOG] AccessControl: Anonymous login is enabled
+[2023-10-30 15:26:24.909904] [OPCUA_LOG] x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2023-10-30 15:26:25.184314] [OPCUA_INFO/SERVER] AccessControl: Anonymous login is enabled
+[2023-10-30 15:26:25.279786] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://0.0.0.0:4880/
+[2023-10-30 15:26:25.340802] [OPCUA_LOG] Subscription 0 | MonitoredItem 1 | Created the MonitoredItem (Sampling Interval: 100.00ms, Queue Size: 1)
+[2023-10-30 15:26:25.429941] [OPCUA_INFO] [Add Variable Node] name: Object/testNode1, data type: Int16
+[2023-10-30 15:26:25.574357] [OPCUA_LOG] Subscription 0 | MonitoredItem 2 | Created the MonitoredItem (Sampling Interval: 100.00ms, Queue Size: 1)
+[2023-10-30 15:26:25.648010] [OPCUA_INFO] [Add Variable Node] name: Object/testNode1/testNode2, data type: String
+[2023-10-30 15:26:25.747530] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-10-30 15:26:25.824770] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4880
+[2023-10-30 15:26:25.905068] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4880
+[2023-10-30 15:26:26.058417] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4880
+[2023-10-30 15:26:30.337377] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:26:30.453650] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel created
+[2023-10-30 15:26:30.545220] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:26:30.726952] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:26:30.895278] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:26:30.996867] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:26:31.118559] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:26:31.231354] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:26:31.309501] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:26:31.395037] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel created
+[2023-10-30 15:26:31.507608] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:26:31.639804] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:26:31.745060] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:26:31.872131] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:26:31.953417] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:26:32.074224] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:26:32.229831] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:26:32.369761] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:26:32.523277] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:30:38.502294] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Closing the Session
+[2023-10-30 15:30:38.602549] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription deleted
+[2023-10-30 15:30:38.710894] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:30:38.864303] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:30:40.853069] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:30:40.969950] [OPCUA_LOG] TCP 10    | SC 3    | SecureChannel created
+[2023-10-30 15:30:41.070312] [OPCUA_LOG] TCP 10    | SC 3    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:30:41.266929] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:30:41.384246] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:30:41.645096] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:30:41.808151] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:30:42.033079] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:30:42.246772] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:30:42.448286] [OPCUA_LOG] TCP 10    | SC 4    | SecureChannel created
+[2023-10-30 15:30:42.559884] [OPCUA_LOG] TCP 10    | SC 4    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:30:42.699759] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:30:42.884576] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:30:43.112669] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:30:43.327832] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:30:43.430690] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:30:43.535524] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:30:43.620804] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:30:43.741898] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | Subscription 2 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:32:15.582827] [OPCUA_INFO] System Started
+[2023-10-30 15:32:15.664818] [OPCUA_INFO] 설정 내용 : IP: 0.0.0.0, Port: 4880
+[2023-10-30 15:32:15.748516] [OPCUA_INFO] Operation-Start
+[2023-10-30 15:32:15.869546] [OPCUA_LOG] ServerUrls already set. Overriding.
+[2023-10-30 15:32:15.943548] [OPCUA_LOG] Could not add SecurityPolicy#Basic128Rsa15 with error code BadInvalidArgument
+[2023-10-30 15:32:16.006444] [OPCUA_LOG] Could not add SecurityPolicy#Basic256 with error code BadInvalidArgument
+[2023-10-30 15:32:16.067698] [OPCUA_LOG] Could not add SecurityPolicy#Aes256Sha256RsaPss with error code BadInvalidArgument
+[2023-10-30 15:32:16.109841] [OPCUA_LOG] Could not add SecurityPolicy#Basic256Sha256 with error code BadInvalidArgument
+[2023-10-30 15:32:16.201410] [OPCUA_LOG] Could not add SecurityPolicy#Aes128Sha256RsaOaep with error code BadInvalidArgument
+[2023-10-30 15:32:16.377424] [OPCUA_LOG] AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2023-10-30 15:32:16.493627] [OPCUA_LOG] AccessControl: Anonymous login is enabled
+[2023-10-30 15:32:16.584998] [OPCUA_LOG] x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2023-10-30 15:32:16.696495] [OPCUA_INFO/SERVER] AccessControl: Anonymous login is enabled
+[2023-10-30 15:32:16.865053] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://0.0.0.0:4880/
+[2023-10-30 15:32:16.908988] [OPCUA_LOG] Subscription 0 | MonitoredItem 1 | Created the MonitoredItem (Sampling Interval: 100.00ms, Queue Size: 1)
+[2023-10-30 15:32:17.109998] [OPCUA_INFO] [Add Variable Node] name: Object/testNode1, data type: Int16
+[2023-10-30 15:32:17.201692] [OPCUA_LOG] Subscription 0 | MonitoredItem 2 | Created the MonitoredItem (Sampling Interval: 100.00ms, Queue Size: 1)
+[2023-10-30 15:32:17.314252] [OPCUA_INFO] [Add Variable Node] name: Object/testNode1/testNode2, data type: String
+[2023-10-30 15:32:17.419149] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-10-30 15:32:17.498243] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4880
+[2023-10-30 15:32:17.660893] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4880
+[2023-10-30 15:32:17.744920] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4880
+[2023-10-30 15:32:17.843934] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:32:17.930577] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel created
+[2023-10-30 15:32:18.014609] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:32:18.107391] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:18.304021] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:18.448317] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:18.517063] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:32:18.641828] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:32:18.722955] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:32:18.820135] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel created
+[2023-10-30 15:32:18.898268] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:32:18.982082] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:19.112186] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:19.155722] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:19.260140] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:19.355086] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:32:19.426767] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:19.485318] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:32:19.595603] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:32:30.641311] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Closing the Session
+[2023-10-30 15:32:30.755714] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription deleted
+[2023-10-30 15:32:30.840226] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:32:30.988694] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:32:33.423623] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:32:33.572474] [OPCUA_LOG] TCP 10    | SC 3    | SecureChannel created
+[2023-10-30 15:32:33.686834] [OPCUA_LOG] TCP 10    | SC 3    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:32:33.791245] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:33.853475] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:33.905014] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:34.005772] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:32:34.108652] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:32:34.162913] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:32:34.344714] [OPCUA_LOG] TCP 10    | SC 4    | SecureChannel created
+[2023-10-30 15:32:34.443719] [OPCUA_LOG] TCP 10    | SC 4    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:32:34.552906] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:34.698878] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:34.747289] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:34.820973] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:34.927192] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:32:35.052417] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:32:35.326457] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:32:35.417858] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | Subscription 2 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:40:04.472141] [OPCUA_LOG] TCP 10    | SC 4    | SecureChannel renewed with a revised lifetime of 600.00s
+[2023-10-30 15:40:13.229719] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | Closing the Session
+[2023-10-30 15:40:13.300052] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | Subscription 2 | Subscription deleted
+[2023-10-30 15:40:13.401565] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:40:13.556383] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:40:15.402274] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:40:18.568768] [OPCUA_LOG] TCP 10    | SC 5    | SecureChannel created
+[2023-10-30 15:40:18.680916] [OPCUA_LOG] TCP 10    | SC 5    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:40:18.787708] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:40:18.904650] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:40:18.966931] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:40:19.078372] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:40:19.150110] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:40:19.236787] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:40:19.315850] [OPCUA_LOG] TCP 10    | SC 6    | SecureChannel created
+[2023-10-30 15:40:19.553746] [OPCUA_LOG] TCP 10    | SC 6    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:40:19.731305] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:40:19.834240] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:40:19.959440] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:40:20.055620] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:40:20.189199] [OPCUA_LOG] TCP 10    | SC 6    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:40:20.266585] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:40:20.365689] [OPCUA_LOG] TCP 10    | SC 6    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:40:20.562103] [OPCUA_LOG] TCP 10    | SC 6    | Session  dataFEED OPC UA Client 1     | Subscription 3 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:40:54.616814] [OPCUA_INFO] System Started
+[2023-10-30 15:40:54.784361] [OPCUA_INFO] 설정 내용 : IP: 0.0.0.0, Port: 4840
+[2023-10-30 15:40:54.967636] [OPCUA_INFO] Operation-Start
+[2023-10-30 15:40:55.106782] [OPCUA_LOG] ServerUrls already set. Overriding.
+[2023-10-30 15:40:55.227488] [OPCUA_LOG] Could not add SecurityPolicy#Basic128Rsa15 with error code BadInvalidArgument
+[2023-10-30 15:40:55.362745] [OPCUA_LOG] Could not add SecurityPolicy#Basic256 with error code BadInvalidArgument
+[2023-10-30 15:40:55.455890] [OPCUA_LOG] Could not add SecurityPolicy#Aes256Sha256RsaPss with error code BadInvalidArgument
+[2023-10-30 15:40:55.624759] [OPCUA_LOG] Could not add SecurityPolicy#Basic256Sha256 with error code BadInvalidArgument
+[2023-10-30 15:40:55.768219] [OPCUA_LOG] Could not add SecurityPolicy#Aes128Sha256RsaOaep with error code BadInvalidArgument
+[2023-10-30 15:40:55.830808] [OPCUA_LOG] AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2023-10-30 15:40:55.979216] [OPCUA_LOG] AccessControl: Anonymous login is enabled
+[2023-10-30 15:40:56.096120] [OPCUA_LOG] x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2023-10-30 15:40:56.169672] [OPCUA_INFO/SERVER] AccessControl: Anonymous login is enabled
+[2023-10-30 15:40:56.277258] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://0.0.0.0:4840/
+[2023-10-30 15:40:56.334062] [OPCUA_LOG] Subscription 0 | MonitoredItem 1 | Created the MonitoredItem (Sampling Interval: 100.00ms, Queue Size: 1)
+[2023-10-30 15:40:56.486174] [OPCUA_INFO] [Add Variable Node] name: Object/testNode1, data type: Int16
+[2023-10-30 15:40:56.568839] [OPCUA_LOG] Subscription 0 | MonitoredItem 2 | Created the MonitoredItem (Sampling Interval: 100.00ms, Queue Size: 1)
+[2023-10-30 15:40:56.686856] [OPCUA_INFO] [Add Variable Node] name: Object/testNode1/testNode2, data type: String
+[2023-10-30 15:40:56.813510] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-10-30 15:40:56.962872] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4840
+[2023-10-30 15:40:57.071666] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4840
+[2023-10-30 15:40:57.163144] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4840
+[2023-10-30 15:41:11.323654] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:41:11.570701] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel created
+[2023-10-30 15:41:11.702889] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:41:11.798777] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:11.879624] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:11.981970] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:12.061278] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:41:12.149505] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:41:12.221818] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:41:12.290696] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel created
+[2023-10-30 15:41:12.355599] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:41:12.646188] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:12.776465] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:12.864014] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:12.942656] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:13.013284] [OPCUA_LOG] TCP 10    | SC 2    | Session  ns=1;g=f1751ec9-9d95-0f23-f13f-d39d8c1821b2     | Session created
+[2023-10-30 15:41:13.099372] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:13.181397] [OPCUA_LOG] TCP 10    | SC 2    | Session  ns=1;g=f1751ec9-9d95-0f23-f13f-d39d8c1821b2     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:41:13.284270] [OPCUA_LOG] TCP 10    | SC 2    | Session  ns=1;g=f1751ec9-9d95-0f23-f13f-d39d8c1821b2     | Closing the Session
+[2023-10-30 15:41:13.362782] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:41:13.607096] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:41:13.948620] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:41:14.076969] [OPCUA_LOG] TCP 10    | SC 3    | SecureChannel created
+[2023-10-30 15:41:14.244780] [OPCUA_LOG] TCP 10    | SC 3    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:41:14.312585] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:14.379984] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:14.657167] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:14.830901] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:41:14.985353] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:41:15.067642] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:41:15.196701] [OPCUA_LOG] TCP 10    | SC 4    | SecureChannel created
+[2023-10-30 15:41:15.320127] [OPCUA_LOG] TCP 10    | SC 4    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:41:15.422107] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:15.562593] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:15.641939] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:15.777572] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:15.930580] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:41:16.092588] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:16.181768] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:41:16.278678] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:41:22.184202] [OPCUA_LOG] TCP 10    | SC 6    | Session  dataFEED OPC UA Client 1     | Closing the Session
+[2023-10-30 15:41:22.270070] [OPCUA_LOG] TCP 10    | SC 6    | Session  dataFEED OPC UA Client 1     | Subscription 3 | Subscription deleted
+[2023-10-30 15:41:22.453923] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:41:22.579033] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:41:27.923942] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | Closing the Session
+[2023-10-30 15:41:28.013862] [OPCUA_LOG] TCP 10    | SC 4    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription deleted
+[2023-10-30 15:41:28.130167] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:41:28.242318] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:41:29.497159] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:41:29.581431] [OPCUA_LOG] TCP 10    | SC 5    | SecureChannel created
+[2023-10-30 15:41:29.719534] [OPCUA_LOG] TCP 10    | SC 5    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:41:29.769076] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:29.846658] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:29.936182] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:30.022315] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:41:30.110709] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:41:30.242376] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:41:30.324984] [OPCUA_LOG] TCP 10    | SC 6    | SecureChannel created
+[2023-10-30 15:41:30.408327] [OPCUA_LOG] TCP 10    | SC 6    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:41:30.662722] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:30.773468] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:30.852424] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:30.939792] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:31.048061] [OPCUA_LOG] TCP 10    | SC 6    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:41:31.157904] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:31.339684] [OPCUA_LOG] TCP 10    | SC 6    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:41:31.478550] [OPCUA_LOG] TCP 10    | SC 6    | Session  dataFEED OPC UA Client 1     | Subscription 2 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:41:35.716596] [OPCUA_LOG] TCP 3    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:41:35.824243] [OPCUA_LOG] TCP 3    | SC 7    | SecureChannel created
+[2023-10-30 15:41:35.920282] [OPCUA_LOG] TCP 3    | SC 7    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:41:36.049213] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:36.119449] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:36.218113] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:36.338535] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:41:36.551834] [OPCUA_LOG] TCP 3    | Socket closed
+[2023-10-30 15:41:36.785748] [OPCUA_LOG] TCP 3    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:41:36.948071] [OPCUA_LOG] TCP 3    | SC 8    | SecureChannel created
+[2023-10-30 15:41:37.073682] [OPCUA_LOG] TCP 3    | SC 8    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:41:37.192521] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:37.295513] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:37.504390] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:37.647897] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:37.802860] [OPCUA_LOG] TCP 3    | SC 8    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:41:37.876746] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:41:38.055900] [OPCUA_LOG] TCP 3    | SC 8    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:41:38.170135] [OPCUA_LOG] TCP 3    | SC 8    | Session  dataFEED OPC UA Client 1     | Subscription 4 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:42:20.885551] [OPCUA_LOG] TCP 3    | SC 8    | Session  dataFEED OPC UA Client 1     | Closing the Session
+[2023-10-30 15:42:21.047422] [OPCUA_LOG] TCP 3    | SC 8    | Session  dataFEED OPC UA Client 1     | Subscription 4 | Subscription deleted
+[2023-10-30 15:42:21.251579] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:42:21.387130] [OPCUA_LOG] TCP 3    | Socket closed
+[2023-10-30 15:42:22.914257] [OPCUA_LOG] TCP 3    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:42:23.050594] [OPCUA_LOG] TCP 3    | SC 9    | SecureChannel created
+[2023-10-30 15:42:23.166442] [OPCUA_LOG] TCP 3    | SC 9    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:42:23.264846] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:42:23.341698] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:42:23.598901] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:42:23.694903] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:42:23.833901] [OPCUA_LOG] TCP 3    | Socket closed
+[2023-10-30 15:42:23.956245] [OPCUA_LOG] TCP 3    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:42:24.135918] [OPCUA_LOG] TCP 3    | SC 10    | SecureChannel created
+[2023-10-30 15:42:24.306187] [OPCUA_LOG] TCP 3    | SC 10    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:42:24.430765] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:42:24.638249] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:42:24.840534] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:42:24.912502] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:42:25.009578] [OPCUA_LOG] TCP 3    | SC 10    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:42:25.093009] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:42:25.174326] [OPCUA_LOG] TCP 3    | SC 10    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:42:25.278235] [OPCUA_LOG] TCP 3    | SC 10    | Session  dataFEED OPC UA Client 1     | Subscription 5 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:52:35.192163] [OPCUA_INFO] System Started
+[2023-10-30 15:52:35.288501] [OPCUA_INFO] 설정 내용 : IP: 0.0.0.0, Port: 4880
+[2023-10-30 15:52:35.393796] [OPCUA_INFO] Operation-Start
+[2023-10-30 15:52:35.471913] [OPCUA_LOG] ServerUrls already set. Overriding.
+[2023-10-30 15:52:35.631531] [OPCUA_LOG] Could not add SecurityPolicy#Basic128Rsa15 with error code BadInvalidArgument
+[2023-10-30 15:52:35.897470] [OPCUA_LOG] Could not add SecurityPolicy#Basic256 with error code BadInvalidArgument
+[2023-10-30 15:52:36.146290] [OPCUA_LOG] Could not add SecurityPolicy#Aes256Sha256RsaPss with error code BadInvalidArgument
+[2023-10-30 15:52:36.492053] [OPCUA_LOG] Could not add SecurityPolicy#Basic256Sha256 with error code BadInvalidArgument
+[2023-10-30 15:52:36.764887] [OPCUA_LOG] Could not add SecurityPolicy#Aes128Sha256RsaOaep with error code BadInvalidArgument
+[2023-10-30 15:52:37.133295] [OPCUA_LOG] AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2023-10-30 15:52:37.355013] [OPCUA_LOG] AccessControl: Anonymous login is enabled
+[2023-10-30 15:52:37.550509] [OPCUA_LOG] x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2023-10-30 15:52:37.786410] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://0.0.0.0:4880/
+[2023-10-30 15:52:37.956480] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Objects/method1): Parent node not found
+[2023-10-30 15:52:38.208368] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Objects/method1): The parent reference for is invalid
+[2023-10-30 15:52:38.412216] [OPCUA_INFO] [Add Method Node] name: Objects/method1, data type: String, method: hello name
+[2023-10-30 15:52:38.678093] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Objects/method2): Parent node not found
+[2023-10-30 15:52:38.911319] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Objects/method2): The parent reference for is invalid
+[2023-10-30 15:52:39.165070] [OPCUA_INFO] [Add Method Node] name: Objects/method2, data type: Int16, method: add two variable
+[2023-10-30 15:52:39.312146] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Objects/testNode2): Parent node not found
+[2023-10-30 15:52:39.540706] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Objects/testNode2): The parent reference for is invalid
+[2023-10-30 15:52:40.279516] [OPCUA_INFO] [Add Variable Node] name: Objects/testNode2, data type: Int16
+[2023-10-30 15:52:40.562112] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-10-30 15:52:40.903631] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4880
+[2023-10-30 15:52:41.723343] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4880
+[2023-10-30 15:52:41.975816] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4880
+[2023-10-30 15:52:46.395441] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:52:46.545377] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel created
+[2023-10-30 15:52:46.762926] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:52:46.900869] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:52:47.056080] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:52:47.180954] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:52:47.279666] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:52:47.403728] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:52:47.553905] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:52:47.742814] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel created
+[2023-10-30 15:52:48.011931] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:52:48.252763] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:52:48.465098] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:52:48.797074] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:52:48.968468] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:52:49.164589] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:52:49.344844] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:52:49.545922] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:52:50.112538] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:55:14.008701] [OPCUA_INFO] System Started
+[2023-10-30 15:55:14.196471] [OPCUA_INFO] 설정 내용 : IP: 0.0.0.0, Port: 4880
+[2023-10-30 15:55:14.295281] [OPCUA_INFO] Operation-Start
+[2023-10-30 15:55:14.417339] [OPCUA_LOG] ServerUrls already set. Overriding.
+[2023-10-30 15:55:14.594482] [OPCUA_LOG] Could not add SecurityPolicy#Basic128Rsa15 with error code BadInvalidArgument
+[2023-10-30 15:55:14.870897] [OPCUA_LOG] Could not add SecurityPolicy#Basic256 with error code BadInvalidArgument
+[2023-10-30 15:55:14.964264] [OPCUA_LOG] Could not add SecurityPolicy#Aes256Sha256RsaPss with error code BadInvalidArgument
+[2023-10-30 15:55:15.121830] [OPCUA_LOG] Could not add SecurityPolicy#Basic256Sha256 with error code BadInvalidArgument
+[2023-10-30 15:55:15.334422] [OPCUA_LOG] Could not add SecurityPolicy#Aes128Sha256RsaOaep with error code BadInvalidArgument
+[2023-10-30 15:55:15.508910] [OPCUA_LOG] AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2023-10-30 15:55:15.678458] [OPCUA_LOG] AccessControl: Anonymous login is enabled
+[2023-10-30 15:55:15.982212] [OPCUA_LOG] x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2023-10-30 15:55:16.099732] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://0.0.0.0:4880/
+[2023-10-30 15:55:16.248270] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Objects/method1): Parent node not found
+[2023-10-30 15:55:16.424438] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Objects/method1): The parent reference for is invalid
+[2023-10-30 15:55:16.503770] [OPCUA_INFO] [Add Method Node] name: Objects/method1, data type: String, method: hello name
+[2023-10-30 15:55:16.766388] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Objects/method2): Parent node not found
+[2023-10-30 15:55:16.969703] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Objects/method2): The parent reference for is invalid
+[2023-10-30 15:55:17.119555] [OPCUA_INFO] [Add Method Node] name: Objects/method2, data type: Int16, method: add two variable
+[2023-10-30 15:55:17.251711] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Objects/testNode2): Parent node not found
+[2023-10-30 15:55:17.427156] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Objects/testNode2): The parent reference for is invalid
+[2023-10-30 15:55:17.579052] [OPCUA_INFO] [Add Variable Node] name: Objects/testNode2, data type: Int16
+[2023-10-30 15:55:17.694656] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-10-30 15:55:17.958088] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4880
+[2023-10-30 15:55:18.183027] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4880
+[2023-10-30 15:55:18.321298] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4880
+[2023-10-30 15:55:18.478595] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:55:18.782636] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel created
+[2023-10-30 15:55:18.915694] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:55:19.094027] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:55:19.332118] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:55:19.545725] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:55:19.882712] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 15:55:20.046194] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 15:55:20.249580] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 15:55:20.474613] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel created
+[2023-10-30 15:55:20.697601] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 15:55:20.915078] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:55:21.047021] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:55:21.153398] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:55:21.306239] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:55:21.469804] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 15:55:21.611163] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 15:55:21.769483] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 15:55:21.900053] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 15:55:52.970982] [OPCUA_INFO] System Started
+[2023-10-30 15:55:53.137327] [OPCUA_INFO] 설정 내용 : IP: , Port: 0
+[2023-10-30 15:55:53.334870] [OPCUA_INFO] Operation-Start
+[2023-10-30 15:55:53.597557] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://:0/
+[2023-10-30 15:55:53.905275] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-10-30 15:55:53.978107] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4840
+[2023-10-30 15:55:54.203709] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4840
+[2023-10-30 15:55:54.317747] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4840
+[2023-10-30 16:09:33.206120] [OPCUA_INFO] System Started
+[2023-10-30 16:09:33.452658] [OPCUA_INFO] 설정 내용 : IP: 0.0.0.0, Port: 4880
+[2023-10-30 16:09:33.523512] [OPCUA_INFO] Operation-Start
+[2023-10-30 16:09:33.661636] [OPCUA_LOG] ServerUrls already set. Overriding.
+[2023-10-30 16:09:33.733036] [OPCUA_LOG] Could not add SecurityPolicy#Basic128Rsa15 with error code BadInvalidArgument
+[2023-10-30 16:09:33.838245] [OPCUA_LOG] Could not add SecurityPolicy#Basic256 with error code BadInvalidArgument
+[2023-10-30 16:09:33.908692] [OPCUA_LOG] Could not add SecurityPolicy#Aes256Sha256RsaPss with error code BadInvalidArgument
+[2023-10-30 16:09:34.086745] [OPCUA_LOG] Could not add SecurityPolicy#Basic256Sha256 with error code BadInvalidArgument
+[2023-10-30 16:09:34.162424] [OPCUA_LOG] Could not add SecurityPolicy#Aes128Sha256RsaOaep with error code BadInvalidArgument
+[2023-10-30 16:09:34.261571] [OPCUA_LOG] AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2023-10-30 16:09:34.379733] [OPCUA_LOG] AccessControl: Anonymous login is enabled
+[2023-10-30 16:09:34.429661] [OPCUA_LOG] x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2023-10-30 16:09:34.514135] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://0.0.0.0:4880/
+[2023-10-30 16:09:34.604826] [OPCUA_INFO] [Add Method Node] name: Object/method1, data type: String, method: hello name
+[2023-10-30 16:09:34.726815] [OPCUA_INFO] [Add Method Node] name: Object/method2, data type: Int16, method: add two variable
+[2023-10-30 16:09:34.810745] [OPCUA_LOG] Subscription 0 | MonitoredItem 1 | Created the MonitoredItem (Sampling Interval: 100.00ms, Queue Size: 1)
+[2023-10-30 16:09:34.920290] [OPCUA_INFO] [Add Variable Node] name: Object/testNode2, data type: Int16
+[2023-10-30 16:09:35.138904] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-10-30 16:09:35.242838] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4880
+[2023-10-30 16:09:35.315200] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4880
+[2023-10-30 16:09:35.408538] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4880
+[2023-10-30 16:09:37.144668] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 16:09:37.206029] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel created
+[2023-10-30 16:09:37.320645] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 16:09:37.476550] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:09:37.660968] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:09:37.786378] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:09:37.908924] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 16:09:38.022959] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 16:09:38.149550] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 16:09:38.300447] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel created
+[2023-10-30 16:09:38.436841] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 16:09:38.507546] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:09:38.617590] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:09:38.700780] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:09:38.826543] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:09:38.959365] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 16:09:39.181381] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:09:39.254657] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 16:09:39.321475] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 16:51:16.427023] [OPCUA_INFO] System Started
+[2023-10-30 16:51:16.506445] [OPCUA_INFO] 설정 내용 : IP: 0.0.0.0, Port: 4880
+[2023-10-30 16:51:16.592854] [OPCUA_INFO] Operation-Start
+[2023-10-30 16:51:16.677216] [OPCUA_LOG] ServerUrls already set. Overriding.
+[2023-10-30 16:51:16.746242] [OPCUA_LOG] Could not add SecurityPolicy#Basic128Rsa15 with error code BadInvalidArgument
+[2023-10-30 16:51:16.813004] [OPCUA_LOG] Could not add SecurityPolicy#Basic256 with error code BadInvalidArgument
+[2023-10-30 16:51:16.960970] [OPCUA_LOG] Could not add SecurityPolicy#Aes256Sha256RsaPss with error code BadInvalidArgument
+[2023-10-30 16:51:17.023627] [OPCUA_LOG] Could not add SecurityPolicy#Basic256Sha256 with error code BadInvalidArgument
+[2023-10-30 16:51:17.124300] [OPCUA_LOG] Could not add SecurityPolicy#Aes128Sha256RsaOaep with error code BadInvalidArgument
+[2023-10-30 16:51:17.275215] [OPCUA_LOG] AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2023-10-30 16:51:17.325397] [OPCUA_LOG] AccessControl: Anonymous login is enabled
+[2023-10-30 16:51:17.428638] [OPCUA_LOG] x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2023-10-30 16:51:17.515322] [OPCUA_INFO/SERVER] AccessControl: Anonymous login is enabled
+[2023-10-30 16:51:17.606069] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://0.0.0.0:4880/
+[2023-10-30 16:51:17.715432] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Object/Object/method1): Parent node not found
+[2023-10-30 16:51:17.826637] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Object/Object/method1): The parent reference for is invalid
+[2023-10-30 16:51:18.042469] [OPCUA_INFO] [Add Method Node] name: Object/Object/method1, data type: Int16, method: add two variable
+[2023-10-30 16:51:18.121418] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Object/Object/method2): Parent node not found
+[2023-10-30 16:51:18.219514] [OPCUA_LOG] TCP 0    | SC 0    | Session  Administrator     | AddNode (ns=1;s=Object/Object/method2): The parent reference for is invalid
+[2023-10-30 16:51:18.291976] [OPCUA_INFO] [Add Method Node] name: Object/Object/method2, data type: String, method: hello name
+[2023-10-30 16:51:18.399648] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-10-30 16:51:18.514369] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4880
+[2023-10-30 16:51:18.589552] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4880
+[2023-10-30 16:51:18.678057] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4880
+[2023-10-30 16:51:22.318115] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 16:51:22.415775] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel created
+[2023-10-30 16:51:22.518451] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 16:51:22.582833] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:51:22.639842] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:51:22.733830] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:51:22.847005] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 16:51:22.950023] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 16:51:23.030299] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 16:51:23.123560] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel created
+[2023-10-30 16:51:23.223386] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 16:51:23.322501] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:51:23.383473] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:51:23.476007] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:51:23.538047] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:51:23.611043] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 16:51:23.701725] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:51:23.764499] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 16:51:23.832050] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 16:57:02.604273] [OPCUA_INFO] System Started
+[2023-10-30 16:57:02.691681] [OPCUA_INFO] 설정 내용 : IP: 0.0.0.0, Port: 4880
+[2023-10-30 16:57:02.795294] [OPCUA_INFO] Operation-Start
+[2023-10-30 16:57:03.034326] [OPCUA_LOG] ServerUrls already set. Overriding.
+[2023-10-30 16:57:03.123611] [OPCUA_LOG] Could not add SecurityPolicy#Basic128Rsa15 with error code BadInvalidArgument
+[2023-10-30 16:57:03.263152] [OPCUA_LOG] Could not add SecurityPolicy#Basic256 with error code BadInvalidArgument
+[2023-10-30 16:57:03.359945] [OPCUA_LOG] Could not add SecurityPolicy#Aes256Sha256RsaPss with error code BadInvalidArgument
+[2023-10-30 16:57:03.456979] [OPCUA_LOG] Could not add SecurityPolicy#Basic256Sha256 with error code BadInvalidArgument
+[2023-10-30 16:57:03.544945] [OPCUA_LOG] Could not add SecurityPolicy#Aes128Sha256RsaOaep with error code BadInvalidArgument
+[2023-10-30 16:57:03.685915] [OPCUA_LOG] AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2023-10-30 16:57:03.742325] [OPCUA_LOG] AccessControl: Anonymous login is enabled
+[2023-10-30 16:57:03.830755] [OPCUA_LOG] x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2023-10-30 16:57:04.026360] [OPCUA_INFO/SERVER] AccessControl: Anonymous login is enabled
+[2023-10-30 16:57:04.110956] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://0.0.0.0:4880/
+[2023-10-30 16:57:04.212282] [OPCUA_INFO] [Add Method Node] name: Object/method1, data type: Int16, method: add two variable
+[2023-10-30 16:57:04.299672] [OPCUA_INFO] [Add Method Node] name: Object/method2, data type: String, method: hello name
+[2023-10-30 16:57:04.451852] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-10-30 16:57:04.616673] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4880
+[2023-10-30 16:57:04.741902] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4880
+[2023-10-30 16:57:04.836603] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4880
+[2023-10-30 16:57:08.398747] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 16:57:08.475650] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel created
+[2023-10-30 16:57:08.592605] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 16:57:08.661305] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:57:08.764666] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:57:08.897602] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:57:08.975908] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 16:57:09.099648] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 16:57:09.227593] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 16:57:09.324887] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel created
+[2023-10-30 16:57:09.413186] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 16:57:09.513241] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:57:09.616955] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:57:09.765800] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:57:09.880507] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:57:10.085915] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 16:57:10.153078] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:57:10.238121] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 16:57:10.340419] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 16:57:31.981716] [OPCUA_LOG] TCP 9    | Socket closed
+[2023-10-30 16:57:32.175030] [OPCUA_LOG] TCP 8    | Socket closed
+[2023-10-30 16:57:32.308069] [OPCUA_LOG] TCP 7    | Socket closed
+[2023-10-30 16:57:32.495604] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 16:57:32.577866] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 16:57:32.681662] [OPCUA_LOG] Stopping the EventLoop
+[2023-10-30 16:57:32.797370] [OPCUA_LOG] ETH    | Shutting down the ConnectionManager
+[2023-10-30 16:57:33.067570] [OPCUA_LOG] UDP    | Shutting down the ConnectionManager
+[2023-10-30 16:57:33.190455] [OPCUA_LOG] TCP    | Shutting down the ConnectionManager
+[2023-10-30 16:57:33.259021] [OPCUA_LOG] The EventLoop has stopped
+[2023-10-30 16:57:33.371826] [OPCUA_INFO] Operation-Stop
+[2023-10-30 16:57:33.438930] [OPCUA_LOG] TCP 0    | SC 0    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription deleted
+[2023-10-30 16:58:12.407177] [OPCUA_INFO] System Started
+[2023-10-30 16:58:12.538072] [OPCUA_INFO] 설정 내용 : IP: 0.0.0.0, Port: 4880
+[2023-10-30 16:58:12.667770] [OPCUA_INFO] Operation-Start
+[2023-10-30 16:58:12.776753] [OPCUA_LOG] ServerUrls already set. Overriding.
+[2023-10-30 16:58:12.870148] [OPCUA_LOG] Could not add SecurityPolicy#Basic128Rsa15 with error code BadInvalidArgument
+[2023-10-30 16:58:12.949776] [OPCUA_LOG] Could not add SecurityPolicy#Basic256 with error code BadInvalidArgument
+[2023-10-30 16:58:13.188752] [OPCUA_LOG] Could not add SecurityPolicy#Aes256Sha256RsaPss with error code BadInvalidArgument
+[2023-10-30 16:58:13.356056] [OPCUA_LOG] Could not add SecurityPolicy#Basic256Sha256 with error code BadInvalidArgument
+[2023-10-30 16:58:13.423841] [OPCUA_LOG] Could not add SecurityPolicy#Aes128Sha256RsaOaep with error code BadInvalidArgument
+[2023-10-30 16:58:13.466808] [OPCUA_LOG] AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2023-10-30 16:58:13.533831] [OPCUA_LOG] AccessControl: Anonymous login is enabled
+[2023-10-30 16:58:13.595769] [OPCUA_LOG] x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2023-10-30 16:58:13.676921] [OPCUA_INFO/SERVER] AccessControl: Anonymous login is enabled
+[2023-10-30 16:58:13.786329] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://0.0.0.0:4880/
+[2023-10-30 16:58:13.866323] [OPCUA_INFO] [Add Method Node] name: Object/method1, data type: Int16, method: add two variable
+[2023-10-30 16:58:13.948670] [OPCUA_INFO] [Add Folder Node] name: Object/method1/test
+[2023-10-30 16:58:14.193998] [OPCUA_INFO] [Add Method Node] name: Object/method2, data type: String, method: hello name
+[2023-10-30 16:58:14.366068] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-10-30 16:58:14.549747] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4880
+[2023-10-30 16:58:14.698365] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4880
+[2023-10-30 16:58:14.844831] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4880
+[2023-10-30 16:58:15.411820] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 16:58:15.560377] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel created
+[2023-10-30 16:58:15.726500] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 16:58:15.841400] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:58:15.928111] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:58:16.145833] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:58:16.258030] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 16:58:16.357980] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 16:58:16.436554] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 16:58:16.498120] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel created
+[2023-10-30 16:58:16.584746] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 16:58:16.689029] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:58:16.807678] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:58:16.890265] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:58:17.061584] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:58:17.166911] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 16:58:17.281629] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:58:17.382647] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 16:58:17.471884] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 16:58:32.455769] [OPCUA_LOG] TCP 9    | Socket closed
+[2023-10-30 16:58:32.546799] [OPCUA_LOG] TCP 8    | Socket closed
+[2023-10-30 16:58:32.697171] [OPCUA_LOG] TCP 7    | Socket closed
+[2023-10-30 16:58:33.007508] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 16:58:33.141583] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 16:58:33.227434] [OPCUA_LOG] Stopping the EventLoop
+[2023-10-30 16:58:33.372454] [OPCUA_LOG] ETH    | Shutting down the ConnectionManager
+[2023-10-30 16:58:33.477998] [OPCUA_LOG] UDP    | Shutting down the ConnectionManager
+[2023-10-30 16:58:33.579667] [OPCUA_LOG] TCP    | Shutting down the ConnectionManager
+[2023-10-30 16:58:33.689489] [OPCUA_LOG] The EventLoop has stopped
+[2023-10-30 16:58:33.775613] [OPCUA_INFO] Operation-Stop
+[2023-10-30 16:58:33.887685] [OPCUA_LOG] TCP 0    | SC 0    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription deleted
+[2023-10-30 16:58:57.013793] [OPCUA_INFO] System Started
+[2023-10-30 16:58:57.154441] [OPCUA_INFO] 설정 내용 : IP: 0.0.0.0, Port: 4880
+[2023-10-30 16:58:57.285318] [OPCUA_INFO] Operation-Start
+[2023-10-30 16:58:57.441242] [OPCUA_LOG] ServerUrls already set. Overriding.
+[2023-10-30 16:58:57.592369] [OPCUA_LOG] Could not add SecurityPolicy#Basic128Rsa15 with error code BadInvalidArgument
+[2023-10-30 16:58:57.708196] [OPCUA_LOG] Could not add SecurityPolicy#Basic256 with error code BadInvalidArgument
+[2023-10-30 16:58:57.849578] [OPCUA_LOG] Could not add SecurityPolicy#Aes256Sha256RsaPss with error code BadInvalidArgument
+[2023-10-30 16:58:57.897246] [OPCUA_LOG] Could not add SecurityPolicy#Basic256Sha256 with error code BadInvalidArgument
+[2023-10-30 16:58:58.158549] [OPCUA_LOG] Could not add SecurityPolicy#Aes128Sha256RsaOaep with error code BadInvalidArgument
+[2023-10-30 16:58:58.290451] [OPCUA_LOG] AccessControl: Unconfigured AccessControl. Users have all permissions.
+[2023-10-30 16:58:58.423519] [OPCUA_LOG] AccessControl: Anonymous login is enabled
+[2023-10-30 16:58:58.542124] [OPCUA_LOG] x509 Certificate Authentication configured, but no encrypting SecurityPolicy. This can leak credentials on the network.
+[2023-10-30 16:58:58.683555] [OPCUA_INFO/SERVER] AccessControl: Anonymous login is enabled
+[2023-10-30 16:58:58.756750] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://0.0.0.0:4880/
+[2023-10-30 16:58:58.821798] [OPCUA_INFO] [Add Method Node] name: Object/method1, data type: Int16, method: add two variable
+[2023-10-30 16:58:58.894587] [OPCUA_INFO] [Add Folder Node] name: Object/method1/test
+[2023-10-30 16:58:59.100485] [OPCUA_LOG] Subscription 0 | MonitoredItem 1 | Created the MonitoredItem (Sampling Interval: 100.00ms, Queue Size: 1)
+[2023-10-30 16:58:59.184561] [OPCUA_INFO] [Add Variable Node] name: Object/method1/test/tt, data type: Int16
+[2023-10-30 16:58:59.254387] [OPCUA_INFO] [Add Method Node] name: Object/method2, data type: String, method: hello name
+[2023-10-30 16:58:59.348986] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-10-30 16:58:59.653613] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4880
+[2023-10-30 16:58:59.794371] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4880
+[2023-10-30 16:58:59.919495] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4880
+[2023-10-30 16:59:00.030068] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 16:59:00.123232] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel created
+[2023-10-30 16:59:00.279903] [OPCUA_LOG] TCP 10    | SC 1    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 16:59:00.366258] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:59:00.461919] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:59:00.579517] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:59:00.682937] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 16:59:00.777877] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 16:59:00.888537] [OPCUA_LOG] TCP 10    | Connection opened from  10.7.12.94  via the server socket 7
+[2023-10-30 16:59:01.134497] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel created
+[2023-10-30 16:59:01.250224] [OPCUA_LOG] TCP 10    | SC 2    | SecureChannel opened with SecurityPolicy http://opcfoundation.org/UA/SecurityPolicy#None and a revised lifetime of 600.00s
+[2023-10-30 16:59:01.320904] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:59:01.430300] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:59:01.541428] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:59:01.629675] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:59:01.724221] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Session created
+[2023-10-30 16:59:01.826047] [OPCUA_LOG] Could not find a SecurityPolicy with encryption for the UserTokenPolicy. Using an unencrypted policy.
+[2023-10-30 16:59:01.983963] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | ActivateSession: Session activated with ClientUserId   
+[2023-10-30 16:59:02.141153] [OPCUA_LOG] TCP 10    | SC 2    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription created (Publishing interval 1000.00ms, max 1000 notifications per publish)
+[2023-10-30 16:59:22.744482] [OPCUA_LOG] TCP 9    | Socket closed
+[2023-10-30 16:59:22.898991] [OPCUA_LOG] TCP 8    | Socket closed
+[2023-10-30 16:59:23.372448] [OPCUA_LOG] TCP 7    | Socket closed
+[2023-10-30 16:59:23.584339] [OPCUA_LOG] TCP 0    | SC 0    | SecureChannel closed
+[2023-10-30 16:59:23.778704] [OPCUA_LOG] TCP 10    | Socket closed
+[2023-10-30 16:59:23.931307] [OPCUA_LOG] Stopping the EventLoop
+[2023-10-30 16:59:24.036218] [OPCUA_LOG] ETH    | Shutting down the ConnectionManager
+[2023-10-30 16:59:24.211323] [OPCUA_LOG] UDP    | Shutting down the ConnectionManager
+[2023-10-30 16:59:24.261650] [OPCUA_LOG] TCP    | Shutting down the ConnectionManager
+[2023-10-30 16:59:24.372073] [OPCUA_LOG] The EventLoop has stopped
+[2023-10-30 16:59:24.507557] [OPCUA_INFO] Operation-Stop
+[2023-10-30 16:59:24.659525] [OPCUA_LOG] TCP 0    | SC 0    | Session  dataFEED OPC UA Client 1     | Subscription 1 | Subscription deleted
+[2023-10-30 16:59:24.745399] [OPCUA_LOG] Subscription 0 | MonitoredItem 1 | Deleting the MonitoredItem

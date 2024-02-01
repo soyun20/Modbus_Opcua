@@ -1,0 +1,48 @@
+[2023-11-27 08:34:22.768842] [OPCUA_INFO] System Started
+[2023-11-27 08:34:22.887112] [OPCUA_INFO] 설정 내용 : IP: , Port: 0
+[2023-11-27 08:34:22.945886] [OPCUA_INFO] Operation-Start
+[2023-11-27 08:34:22.991472] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://:0/
+[2023-11-27 08:34:23.066768] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-11-27 08:34:23.132595] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4840
+[2023-11-27 08:34:23.189237] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4840
+[2023-11-27 08:34:23.242867] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4840
+[2023-11-27 08:50:07.733293] [OPCUA_INFO] System Started
+[2023-11-27 08:50:07.968892] [OPCUA_INFO] 설정 내용 : IP: , Port: 0
+[2023-11-27 08:50:08.008952] [OPCUA_INFO] Operation-Start
+[2023-11-27 08:50:08.097028] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://:0/
+[2023-11-27 08:50:08.159397] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-11-27 08:50:08.237648] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4840
+[2023-11-27 08:50:08.368561] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4840
+[2023-11-27 08:50:08.442420] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4840
+[2023-11-27 08:50:27.074402] [OPCUA_INFO] System Started
+[2023-11-27 08:50:27.147209] [OPCUA_INFO] 설정 내용 : IP: , Port: 0
+[2023-11-27 08:50:27.191996] [OPCUA_INFO] Operation-Start
+[2023-11-27 08:50:27.246290] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://:0/
+[2023-11-27 08:50:27.354528] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-11-27 08:50:27.421970] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4840
+[2023-11-27 08:50:27.477125] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4840
+[2023-11-27 08:50:27.539704] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4840
+[2023-11-27 08:55:06.504531] [OPCUA_INFO] System Started
+[2023-11-27 08:55:06.603224] [OPCUA_INFO] 설정 내용 : IP: , Port: 0
+[2023-11-27 08:55:06.709989] [OPCUA_INFO] Operation-Start
+[2023-11-27 08:55:06.799642] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://:0/
+[2023-11-27 08:55:06.892130] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-11-27 08:55:07.042137] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4840
+[2023-11-27 08:55:07.109541] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4840
+[2023-11-27 08:55:07.190109] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4840
+[2023-11-27 08:56:41.153426] [OPCUA_INFO] System Started
+[2023-11-27 08:56:41.286123] [OPCUA_INFO] 설정 내용 : IP: , Port: 0
+[2023-11-27 08:56:41.334061] [OPCUA_INFO] Operation-Start
+[2023-11-27 08:56:41.407292] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://:0/
+[2023-11-27 08:56:41.492864] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-11-27 08:56:41.603510] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4840
+[2023-11-27 08:56:41.688164] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4840
+[2023-11-27 08:56:41.744250] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4840
+[2023-11-27 09:00:01.382871] [OPCUA_INFO] System Started
+[2023-11-27 09:00:01.504161] [OPCUA_INFO] 설정 내용 : IP: , Port: 0
+[2023-11-27 09:00:01.552752] [OPCUA_INFO] Operation-Start
+[2023-11-27 09:00:01.726482] [OPCUA_INFO/NETWORK] TCP network layer listening on opc.tcp://:0/
+[2023-11-27 09:00:01.827267] [OPCUA_LOG] TCP    | Listening on all interfaces
+[2023-11-27 09:00:01.895712] [OPCUA_LOG] TCP 7    | Creating server socket for  0.0.0.0  on port 4840
+[2023-11-27 09:00:01.989805] [OPCUA_LOG] TCP 8    | Creating server socket for  ::  on port 4840
+[2023-11-27 09:00:02.058124] [OPCUA_LOG] TCP 9    | Creating server socket for  127.0.1.1  on port 4840

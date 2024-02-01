@@ -1,0 +1,62 @@
+
+============================================
+처음
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000}'
+
+
+
+============================================
+write coil
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000,"name":"test1","type":0,"slaveid":1,"address":304,"boolValue":1,"invalid_function":0}'
+
+
+read coils
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000,"name":"test1","slaveid":3,"area":0,"address":304,"quantity":1,"scantime":500,"byteswap":0,"wordswap":0}'
+============================================
+write holding register
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000,"name":"test1","type":1,"slaveid":1,"address":352,"intValue":152,"byteswap":0,"invalid_function":0}'
+
+
+read holding registers
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000,"name":"test1","slaveid":1,"area":2,"address":352,"quantity":1,"scantime":500,"byteswap":0,"wordswap":0}'
+============================================
+write multi coils
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000,"name":"test1","type":2,"slaveid":1,"address":304,"boolValues":[1,1,0,1],"invalid_function":0,"invalid_length":0}'
+
+
+read multi coils
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000,"name":"test1","slaveid":1,"area":0,"address":304,"quantity":4,"scantime":3000,"byteswap":0,"wordswap":0}'
+============================================
+write multi registers
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000,"name":"test1","type":3,"slaveid":1,"address":352,"intValues":[152,353,234],"byteswap":0,"wordswap":0,"invalid_function":0,"invalid_length":0}'
+
+
+read multi registers
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000,"name":"test1","slaveid":1,"area":2,"address":352,"quantity":3,"scantime":500,"byteswap":0,"wordswap":0}'
+============================================
+read input registers
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000,"name":"test1","slaveid":1,"area":3,"address":264,"quantity":1,"scantime":500,"byteswap":0,"wordswap":0}'
+============================================
+read discrete inputs
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000,"name":"test1","slaveid":1,"area":1,"address":452,"quantity":10,"scantime":500,"byteswap":0,"wordswap":0}'
+============================================
+write mask register
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000,"name":"test1","type":4,"slaveid":1,"address":352,"AndMask":"0000000000010101","OrMask":"0000000000000111","invalid_function":0}'
+============================================
+read write multi registers
+
+mosquitto_pub -p 1883 -h localhost -t "test" -m '{"role":"client","protocol":"tcp","ip":"127.0.0.1","port":1502,"transaction_delay":1000,"timeout":1000,"name":"test1","type":5,"slaveid":1,"ReadAddress":352,"ReadQuantity":3,"WriteAddress":352,"intValues":[152,353,234],"invalid_function":0,"invalid_length":0}'
+============================================
+

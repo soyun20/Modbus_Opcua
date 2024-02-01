@@ -1,0 +1,31 @@
+{
+    "id":"fa21528ab84200909facf0686675b720",
+    "networkData":{
+       "endpointurl":"opc.tcp://127.0.0.1:4880",
+       "securitymode":"None",
+       "securitypolicy":"None",
+       "useridentify":"Anonymous",
+       "username":"1",
+       "applicationuri":"urn:open62541.server.application",
+       "password":"1",
+       "certFile":"MIID5jCCAs6gAwIBAgIUB8X/yFu+qRjqwogU1s2wpTbOFuAwDQYJKoZIhvcNAQELBQAwRTELMAkGA1UEBhMCREUxEjAQBgNVBAoMCW9wZW42MjU0MTEiMCAGA1UEAwwZb3BlbjYyNTQxU2VydmVyQGxvY2FsaG9zdDAeFw0yMTExMDQwNzAyMjZaFw0yMjExMDQwNzAyMjZaMEUxCzAJBgNVBAYTAkRFMRIwEAYDVQQKDAlvcGVuNjI1NDExIjAgBgNVBAMMGW9wZW42MjU0MVNlcnZlckBsb2NhbGhvc3QwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC6PulgF/BXzMwoAo4FFkveNVhFyfXtJiL67GZWa70byesZslkaTVNnx39qsI5XoVRblhiZ1Sxise0JUp52i/AEBZcIYaegxGfgYexGMIotY+R0PeIuojqrv5m6Xjb6oOSmd+mquqv7mKgLAsKGckPWzrKkrz6bRucY3O6iIklXgxThrLwn8UCgrfn2TYtX7Al1lkhRoXoo5m+njLb2ywnjIVMu4aeH8DJTShl7QHgoTj2SP3BJrn1a2FHYsq2s+Zbb0an1Uom8nziwINpANjapem5ADRje4WXZb9HTVU58zJKQeOTozybtlPOM4C7Wmkg8vEVi5bEItQ7kN/UZnIYRAgMBAAGjgc0wgcowHQYDVR0OBBYEFARDQWdufeiEZmc27A5SxOH19snAMB8GA1UdIwQYMBaAFARDQWdufeiEZmc27A5SxOH19snAMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgL0MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBRBgNVHREESjBIggtKWVNISU0tTk9URYILSllTSElNLU5PVEWHBMCoARiHBMCoOAGGIHVybjpvcGVuNjI1NDEuc2VydmVyLmFwcGxpY2F0aW9uMA0GCSqGSIb3DQEBCwUAA4IBAQAwAVJhaaIPw7AbX1Q5W4EMEq4N0VmBfGDkDrdE6G9UjVwShMM2r6R08seypuBvLA1HrpAzVjxYMHaaSqtAqaCBye/TeuqV2QV4C/kQJ6O19fsz9I5B5vPDGt2sI0ngDMtyWPGHjQAkcO4pC2nhnVmEtWQDbM8MDzhuO0VBVwbC5gE7Te0ZiSwRhmR5pJroGXhngjgSnL6mmGM4N2ncNeBPqH5Up/g8yGjFZ8nijbhOejoZrU9gM4yCT18Ol130xu2gVN1F6O9xJG0Yhd9lVwq7MmQcSXNeFrG+I+ajrrsFEf+3Pf9yysQl7Zng8g3/RcGClvgV8paS7+m9uoYUCEb7",
+       "keyFile":"MIIEpQIBAAKCAQEAuj7pYBfwV8zMKAKOBRZL3jVYRcn17SYi+uxmVmu9G8nrGbJZGk1TZ8d/arCOV6FUW5YYmdUsYrHtCVKedovwBAWXCGGnoMRn4GHsRjCKLWPkdD3iLqI6q7+Zul42+qDkpnfpqrqr+5ioCwLChnJD1s6ypK8+m0bnGNzuoiJJV4MU4ay8J/FAoK359k2LV+wJdZZIUaF6KOZvp4y29ssJ4yFTLuGnh/AyU0oZe0B4KE49kj9wSa59WthR2LKtrPmW29Gp9VKJvJ84sCDaQDY2qXpuQA0Y3uFl2W/R01VOfMySkHjk6M8m7ZTzjOAu1ppIPLxFYuWxCLUO5Df1GZyGEQIDAQABAoIBAQCfKEX9JVfxYAUTJ+O/uycIdGPD9+veRhncfoqRza4kgjATnJKCZJQi+pwLS2fIwQg64BCT3VT53nzm26CpQ7rPZQuFURaTz2PJn0TvUmmykkvXfk68dUxYGvs/BWZMVZQwIgcgLDfuYK0yA6DCjgElHywQieWhgjzYxWx0R4KPcfLVwtYqyLkfm791/wcV07QNqPBWORXtmxA5d0JGQm10SauFnsdTq3n5vNMcyvyRnRUpY+Gh57nRTQl/O3NwQ5qsYDixpCD3eeI9sxIqCmTLFJixOiarZikYOB4To2tZbUnaQI8hEtr6D31Igl1jkSWr+uMQFB+Bp0ABFdikd5yxAoGBAOEi8S/XFwk87Hm/kP+6vTdQyZDLhr9mk3Aoc460hP5xczwIG1BwA3MmTlMbfMiLCffV6C8DMPao4lOVx1a1KUcKfUbbMVod6IZ0qgGIn8n/W0gf+P1ssWm+DnKq2OCaY9YChsoJLxCNHkExAceLHCnYBU4lbiBPln000Hd1M/0NAoGBANPHHgt3DrgzEzih/3JKjIgrVOo/ao11BOcmF/4qo2LhPWNit77ER9SfOS2YEwhd+S5C6CuBKrkvwGFxMlDB3vP7PebmID3Z8z/0QDphjJ7R9ymlUxLQPdUtrDBWmvo4Urd25r1bUTWrn3Dzv0HMk2jRdOxpWRZwsVUYQnP7ctQVAoGASckw8PP2mdF8014kgJvMPd/dX/ZEYGCW+9BWJzQkzluSX99sTE2Z49hvHS/KEtP23WIe6aGLH5w0KR7SqSlQsPbQHjPild1tgvujaENF02c8nIPWEADamIRwqcYytFIFXHORh4/A/BS0ELumEKcYAOLKwlTkJfTPppNzq2MfOdUCgYEAiDlQzjcrNLlF5+vskOv7MawN1xArzgozuSv7yvZKWtRf1Iovf3pqag5xjS6BL6SjIGrRRQq1HKHmscdKgj/y1iYKT3g/zQlhOwY2Old9SLvurM83fKaO342dcQqEbefE7VaCXdNbjZZz3QgtQnoBaC8zcs7hC1o5926/cDOSTXECgYEAnQj3QoK9/FAfFwkKGn5oQvhVq8ybO2Mx17OYZqB11ECsNM8ZFFtlsAqRRkHNdR9G0QuHKUtUZ09TTwTgwjtFEwkVchC+DFrcWiGdMPIdYusSoz/vR8s2mcAPyeuZqQ0oU+J7oEXRv0K5jpd2Q+FGA8vUlojLk5mGcEWTh9mued4=",
+       "msgCount":1
+    },
+    "msgData":[
+       {
+          "type":"Write NodeId Value",
+          "inputArguments":[
+             {
+                "size":"823",
+                "dataType":"Int16"
+             }
+          ],
+          "invalidmsgtype":false,
+          "invalidmsglength":false,
+          "invalidmsgchunk":false,
+          "name":"1",
+          "nodeId":"ns=1;s=Object/testNode2"
+       }
+    ]
+ }

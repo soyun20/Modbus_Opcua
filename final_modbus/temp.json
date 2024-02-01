@@ -1,0 +1,36 @@
+{
+    "networkData":
+    {
+        "protocol":"TCP",
+        "ip":"1.1.1.1",
+        "port":"1",
+        "transactionDelay":"1111",
+        "timeout":"11",
+        "msgCount":2
+    },
+    "msgData":
+    [
+        {
+            "time":1694572995550,
+            "name":"1",
+            "slaveId":"1",
+            "area":"Coil",
+            "address":"1",
+            "quantity":"1",
+            "scanTime":"1",
+            "byteSwap":"0",
+            "wordSwap":"0"
+        },
+        {
+            "time":1694573001533,
+            "name":"2",
+            "slaveId":"2",
+            "area":"Coil",
+            "address":"2",
+            "quantity":"2",
+            "scanTime":"2",
+            "byteSwap":"1",
+            "wordSwap":"0"
+        }
+    ]
+}

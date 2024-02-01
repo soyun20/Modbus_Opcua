@@ -1,0 +1,3 @@
+[2023-09-20 11:29:52.178311] [CLIENT_START] Client Start
+[2023-09-20 11:29:52.262698] [CLIENT_CONNECT] setting content : Protocol: RTU, IP: 10.7.12.94, Transaction Delay: 1000, Timeout: 2
+[2023-09-20 11:29:52.459115] [CLIENT_CONNECT] Connection to '10.7.12.94' was failed.
